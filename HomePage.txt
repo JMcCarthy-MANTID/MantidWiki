@@ -1,0 +1,166 @@
+__NOTITLE__
+__NOTOC__
+<p><br /></p>
+<div class="row">
+   <div class="span3 offset1 pad-sides">
+      <div style="text-align: center"><img src="http://127.0.0.1/data/localweb/i1.png" width="200" height="200" /></div>
+
+   </div>
+   <div class="span3 pad-sides">
+      <div style="text-align: center"><img src="http://127.0.0.1/data/localweb/i2.png" width="200" height="200" /></div>
+
+   </div>
+   <div class="span3 pad-sides">
+      <div style="text-align: center"><img src="http://127.0.0.1/data/localweb/i3.png" width="200" height="200" /></div>
+
+   </div>
+</div>
+<div class="row">
+   <div class="span3 offset1">
+      <hr />
+   </div>
+   <div class="span3" style="text-align:center">
+      <p><span class="btn btn-primary btn-block">Download Mantid</span></p>
+   </div>
+   <div class="span3">
+      <hr />
+   </div>
+</div>
+<div class="row">
+<!-- ABOUT MANTID SECTION -->
+<div class="span4 pad-left pad-right-small">
+   <h2> <span class="mw-headline" >About Mantid</span></h2>
+   <p>The Mantid project provides a framework that supports high-performance computing and visualisation of scientific data.</p>
+   <p>Mantid has been created to manipulate and analyse Neutron and Muon scattering data, but could be applied to many other techniques. </p>
+   <p>The framework is [[Mantid:About#License_and_Distribution|open source]] and supported on [[Supported_Operating_Systems|multiple target platforms (Windows, Linux, Mac)]].</p>
+</div>
+<!-- END ABOUT MANTID SECTION -->
+<!-- FEATURE SECTION-->
+<div class="span4 pad-left-small pad-right">
+   <h2><span class="mw-headline" >Mantid Features</span></h2>
+   <ul>
+      <li>Feature</li>
+      <li>Feature</li>
+      <li>Feature</li>
+      <li>Feature</li>
+   </ul>
+   <div class="pull-right">
+      <p>[[Contact | Link]]</p>
+   </div>
+</div>
+<!-- END FEATURE SECTION -->
+<!-- NEWS SECTION -->  
+   <div class="span4 pad-left-small pad-right">
+      <h2> <span class="mw-headline">News</span></h2>
+      <!-- NEWS ITEM -->
+      <div style="margin:0px; font-size:1em"><b>7th Feb 2014</b></div>
+      <h4 style="margin:0px; line-height:25px"><span class="mw-headline">Version 3.1 released</span></h4>
+      <p>With the various training sessions we have been running as well as the joint meetings in January this was always going to be a slightly smaller release.  However that did not stop us adding lots of important improvements throughout Mantid, particularly for plotting, reflectometry, and the addition of support for Integration reports for single crystal diffraction data.</p>
+      <div class="pull-right">
+         <p>Take a look at the [[Release Notes 3.1 |release notes]] and [http://download.mantidproject.org download Mantid 3.1] or from [https://sourceforge.net/projects/mantid/files/3.1/ sourceforge].</p>
+<p>[[news_archive | News Archive]]</p>
+      </div>
+      <hr>
+      <!-- END NEWS ITEM -->
+   </div>
+   <!-- END NEWS SECTION -->
+</div>
+<div class="row">
+<div class="span12 pad-left pad-right"><hr></div>
+</div>
+<div class="row">
+   <!-- CITATION SECTION -->
+   <div class="span4 pad-left pad-right-small">
+      <h2><span class="mw-headline" >Citing Mantid</span></h2>
+      <p>
+         Mantid (2013): Manipulation and Analysis Toolkit for Instrument Data.; Mantid Project.[http://dx.doi.org/10.5286/SOFTWARE/MANTID http://dx.doi.org/10.5286/SOFTWARE/MANTID]
+         [http://data.datacite.org/10.5286/SOFTWARE/MANTID Full author list]
+      </p>
+   </div>
+   <!--END CITATION SECTION-->
+   <!-- PARTNERS SECTION -->
+   <div class="span4 pad-left-small pad-right">
+      <h2> <span class="mw-headline" id="">Partners</span></h2>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://www.isis.stfc.ac.uk/'><img width=100px src='http://www.mantidproject.org/images/b/b3/ISIS_Logo.gif' style='float:right'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:left'>
+         <b>Oxford, UK</b><br />
+         Info about ISIS
+      </p>
+      <hr>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://tessella.com/'><img width=100px src='http://www.mantidproject.org/images/0/0e/Tessella_Logo.gif' style='float:left'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:right'>
+         <b>Oxford, UK</b><br />
+         Info about Tesella
+      </p>
+      <hr>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://neutrons.ornl.gov/'><img width=100px src='http://www.mantidproject.org/images/thumb/d/d5/SNS_logo.png/150px-SNS_logo.png' style='float:right'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:left'>
+         <b>Tennessee, USA</b><br />
+         Info SNS
+      </p>
+      <hr>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://www.ill.eu/'><img width=75px src='http://www.mantidproject.org/images/f/f1/Ill_logo.png' style='float:left'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:right'>
+         <b>Grenoble , France</b><br />
+         Info about ILL
+      </p>
+      <hr>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://www.psi.ch/sinq/'><img width=100px src='http://www.mantidproject.org/images/3/34/Psi_logo.png' style='float:right'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:left'>
+         <b>Villigen, Switzerland</b><br />
+         Info about PSI
+      </p>
+      <hr>
+      <h3>
+         <span class="mw-headline" >
+            <anchor url='http://www.mcstas.org/'><img width=100px src='http://www.mantidproject.org/images/5/5b/McStas_logo.png' style='float:left'></anchor>
+         </span>
+      </h3>
+      <p style='text-align:right'>
+         <b>Copenhagen, Denmark</b><br />
+         Info about McStas
+      </p>
+      <hr>
+      <p><br /></p>
+   </div>
+   <!-- END PARTNERS SECTION -->
+   <!-- QUICK START GUIDE SECTION -->
+   <div class="span4 pad-left-small pad-right">
+      <div class="well well-lg">
+         <h2> <span class="mw-headline">Quick Start Guide</span></h2>
+         <div>
+            <p>We have a collection of Mantid training courses that are a great place to start.  We run these at facilities as a hands on course (keep an eye on the news section for upcoming courses), but you can also use the course as self-paced training.</p>
+            <ul>
+               <li> [[Mantid_Basic_Course | Mantid Introduction]]</li>
+               <li>[[Introduction To Python]]</li>
+               <li>[[Python In Mantid]]</li>
+               <li>[[Extending Mantid With Python]]</li>
+               <li>[[Mantid Examples|Examples]]</li>
+            </ul>
+         </div>
+         <div style="clear:both; display: inline-block;">
+         </div>
+      </div>
+   </div>
+   <!-- END QUICK START GUIDE SECTION -->
+</div>

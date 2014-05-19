@@ -1,0 +1,1 @@
+This is the lower half of LocalSettings.php showing which extensions are active and a some of the settings. 
