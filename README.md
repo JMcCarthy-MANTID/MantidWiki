@@ -1,5 +1,5 @@
 MantidWiki Setup Notes
 =======================
 
-##Contact Page Setup
+####Contact Page Setup
 
