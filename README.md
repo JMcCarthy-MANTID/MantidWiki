@@ -12,12 +12,30 @@ When running the install script you will be given fields to add the database con
 
 http://upload.wikimedia.org/wikipedia/commons/4/40/MediaWiki_Config_script.png
 
+Once you have completed this setup you will be able to download the LocalSettings.php for your mediawiki and enter the mediawiki. 
 
-####Importing existing database to mediawiki
-Having received a mysql dump file for the existing mantid wiki this needs to be imported to the mysql database you wish to use. If you are starting with a fresh install of mediawiki then you can input these database details when you are deploying and mediawiki will recognize the mediawiki schema already exists in the database and update this for use with the new install. If you are updating just the database then you can re-run the config script to basically redo the install process: http://www.mediawiki.org/wiki/Manual:Config_script
+####Extensions
+At this point you have a mirror of your previous mediawiki instance on a newer version of mediawiki. The next step is to install the extensions that we use for Mantid. The extensions are:
+
+* AllowAnchorTags (Version 1)	
+* Google Custom Search Engine
+* Math (Version 1.2.0)
+* No Title (Version 0.2.0)
+* SyntaxHighlight (Version 1.0.8.11)
+* Collection (Version 1.7.1)
+* ConfirmAccount
+
+The confirm account and Google Custom Search Engine need extra settings to work. The settings for ConfirmAccount can be found in this repo. The Google Custom Search settings are also found in this repo. 
 
 ####Mantid Skin
-The Mantid skin is a modified version of strapping. The modified version is in this repo. 
+The mediawiki now the correct extensions and the database content but requires the strapping skin to be installed. To give the extra functionality that Mantid requires we have modified strapping for the Mantid Project. This modified version of strapping is also found in this repo. Download this and install it as a standard skin. To install place the strapping folder in the skins folder of the mediawiki directory. Then modify the LocalSettings.php to use this new skin:
+
+'''php
+## Strapping set as the default skin
+require_once( "$IP/skins/strapping/strapping.php" );
+$wgDefaultSkin = "strapping";
+'''
+
  
 
 ####Contact Page Setup
@@ -29,9 +47,4 @@ To send mail the contact page needs to have some email server setting set. To do
 ####Extensions 
 
 These are the extensions that are required for the mantid wiki:
-* AllowAnchorTags (Version 1)	
-* Google Custom Search Engine
-* Math (Version 1.2.0)
-* No Title (Version 0.2.0)
-* SyntaxHighlight (Version 1.0.8.11)
 
