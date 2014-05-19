@@ -17,9 +17,9 @@ To send mail the contact page needs to have some email server setting set. To do
 ####Extensions 
 
 These are the extensions that are required for the mantid wiki:
--AllowAnchorTags (Version 1)	
--Google Custom Search Engine
--Math (Version 1.2.0)
--No Title (Version 0.2.0)
--SyntaxHighlight (Version 1.0.8.11)
+*AllowAnchorTags (Version 1)	
+*Google Custom Search Engine
+*Math (Version 1.2.0)
+*No Title (Version 0.2.0)
+*SyntaxHighlight (Version 1.0.8.11)
 
