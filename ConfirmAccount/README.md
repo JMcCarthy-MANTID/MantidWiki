@@ -1,0 +1,1 @@
+These are the settings that can be used with the ConfirmAccount extension. This file will be present in extensions/ConfirmAccount and can be replaced. Before using please update this file with the email that you want to be notified when an account is requested. 

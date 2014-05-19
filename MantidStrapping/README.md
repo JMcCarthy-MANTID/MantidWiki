@@ -1,0 +1,1 @@
+This is a modified version of strapping a skin for mediawiki. This modified version is for specific use with the Mantid Project. 
