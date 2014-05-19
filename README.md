@@ -36,15 +36,16 @@ require_once( "$IP/skins/strapping/strapping.php" );
 $wgDefaultSkin = "strapping";
 ```
 
- 
+A few changes are now needed to setup the Mantid database to make use of the new skin. First edit the homepage of the wiki to use the code included in this repo under HomePage. This will then use bootstrap to render an attractive home page. 
+
+Secondly create a blank page called 'Contact' and save it. This will be intrepreted by the new skin and will render a bootstrap contact form. 
+
+Finally update the side bar links which in the new wiki define the top links. Do this by visting the special page: index.php/MediaWiki:Sidebar and replacing the content within for the code found in this repo under Toplinks. 
+
 
 ####Contact Page Setup
 
 To send mail the contact page needs to have some email server setting set. To do this navigate to mediawiki/skins/strapping/ and open Strapping.skin.php. Starting from line 871 there is a block of code which needs to have SMTP email settings input. Once these are input the contact page will be able to send email. 
 
-*Note: If redeploying the mediawiki then the contact page needs to be recreated. This page works by identifying a page with the title 'Contact'. Delete any other pages that may have this name and create a blank page called Contact. When viewed with the mantid strapping skin enabled this will render the boostrap contact form.*
-
-####Extensions 
-
-These are the extensions that are required for the mantid wiki:
-
+####Summary
+Your wiki should now be setup to use the extensions and mantid strapping skin required. 
