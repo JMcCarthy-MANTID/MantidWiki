@@ -1,0 +1,6 @@
+* Mantid
+** mainpage | Home
+** Download | Download Mantid
+** :category:documentation | Documentation
+** :Category:Development | Develop
+** contact | Contact Us

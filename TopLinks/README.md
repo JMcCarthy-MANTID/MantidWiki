@@ -1,0 +1,1 @@
+By editing: index.php/MediaWiki:Sidebar you can define what links appear at the top of each page. 

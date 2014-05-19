@@ -1,0 +1,1 @@
+This is the template which can be used on the index page of the mediawiki to give a responsive bootstrap landing page. 
