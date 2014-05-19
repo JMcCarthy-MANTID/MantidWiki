@@ -1,6 +1,18 @@
 MantidWiki Setup Notes
 =======================
 
+This guide is written with the understand that you are starting with a fresh install of mediawiki and want to import and existing mediawiki database to the new mediawiki instance.
+
+####Database setup
+To being you need to have the dump file for your existing mediawiki. Import this dump file to the new database you wish to use. Take note of the table extension if there is one. For Mantid this is MP_. Once you have imported your schema follow the standard mediawiki setup guide skipping over the database setup steps:
+
+http://www.mediawiki.org/wiki/Manual:Installing_MediaWiki
+
+When running the install script you will be given fields to add the database connections details. Here specify the database you imported your dumpfile into. Also here you can add the mysql table prefix. The full set of fields can be seen here:
+
+
+
+
 ####Importing existing database to mediawiki
 Having received a mysql dump file for the existing mantid wiki this needs to be imported to the mysql database you wish to use. If you are starting with a fresh install of mediawiki then you can input these database details when you are deploying and mediawiki will recognize the mediawiki schema already exists in the database and update this for use with the new install. If you are updating just the database then you can re-run the config script to basically redo the install process: http://www.mediawiki.org/wiki/Manual:Config_script
 
