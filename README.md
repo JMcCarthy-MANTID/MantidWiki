@@ -30,11 +30,11 @@ The confirm account and Google Custom Search Engine need extra settings to work.
 ####Mantid Skin
 The mediawiki now the correct extensions and the database content but requires the strapping skin to be installed. To give the extra functionality that Mantid requires we have modified strapping for the Mantid Project. This modified version of strapping is also found in this repo. Download this and install it as a standard skin. To install place the strapping folder in the skins folder of the mediawiki directory. Then modify the LocalSettings.php to use this new skin:
 
-'''php
+```php
 ## Strapping set as the default skin
 require_once( "$IP/skins/strapping/strapping.php" );
 $wgDefaultSkin = "strapping";
-'''
+```
 
  
 
