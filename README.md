@@ -10,7 +10,7 @@ http://www.mediawiki.org/wiki/Manual:Installing_MediaWiki
 
 When running the install script you will be given fields to add the database connections details. Here specify the database you imported your dumpfile into. Also here you can add the mysql table prefix. The full set of fields can be seen here:
 
-
+http://upload.wikimedia.org/wikipedia/commons/4/40/MediaWiki_Config_script.png
 
 
 ####Importing existing database to mediawiki
